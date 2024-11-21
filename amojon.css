@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo {
+    background-image: url("raj_logo2.png");
+    background-size: cover;
+    height: 50px;
+    width: 70px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Box2*/
+
+.add-frist {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box2*/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* Box4*/
+
+.span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/Box6/ .nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hhhhdsssssssssssssssssssssssssssss */
+
+
+
+.background{
+   background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/LEO/Jup24/Phase3/FDFO_3B_PC_Header_1500x300.gif");
+   background-position:center; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 300px;
+}
+
+
+.sell{
+
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.next h3{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.referrer h3{
+width: 240px;
+margin-bottom: 10px;
+}
+.dot{
+    height: 100%;
+    width: 100%;
+}
+.dot img{
+
+width: 280px;
+height: 300px;
+}
+
+.up{
+    width: 100%;
+    height: 100%;
+}
+
+.up img{
+    width: 280px;
+    height: 300px;   
+}
+
+
+.Customer img{
+height: 130px;
+width: 130px;
+}
+
+.two{
+    margin-bottom: 10px;
+    width: 260px;
+}
+
+.Customer{
+    padding: 0px 10px 20px 0px;   
+}
+.globe2{
+    padding: 0px 10px 20px 0px;   
+}
+.globe2 img{
+    height: 130px;
+    width: 130px;  
+}
+
+
+.top{
+    display: flex;
+
+}
+.globe{
+    display: flex;
+
+}
+.one{
+    position: relative;
+}
+.out{
+    position: absolute;
+    margin-top: 30px;
+    right: 300px;
+   bottom: 46px;
+   
+}
+
+.next{
+    background-color: rgb(214, 220, 225);
+    width: 300px;
+    height: 440px; 
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.referrer{
+    background-color: rgb(214, 220, 225);
+    width: 300px;
+    height: 440px;
+    padding-left: 20px;
+    padding-top: 20px;
+ 
+}
+.All{
+    background-color: rgb(214, 220, 225);
+    width: 300px;
+    height: 440px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.expoior {
+   
+    padding-top: 45px;
+}
+
+
+.html{
+    padding-top: 20px;
+    width: 200px;
+}
+
+.Sign{
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Sign {
+    position: absolute;
+    top: 130px;
+
+}
+.js{
+    background-color: rgb(214, 220, 225);
+    width: 230px;
+    height: 185px; 
+    padding-left: 20px;           
+}
+.head2 img{
+    padding-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.tamoto{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.html img{
+    width: 210px;
+    height: 380px;
+
+}
+.jss{
+  
+    background-color: rgb(214, 220, 225);
+    width: 230px;
+    height: 460px; 
+    padding-left: 20px;
+}
+
+.css{
+    display: flex;
+    justify-content: space-evenly;
+}
+.jaipur img{
+margin-top: 40px;
+    width: 300px;
+
+}
+.lion{
+  margin-top: 30px;
+}
+.Ends{
+    padding-left: 40px;
+   padding-top: 30px;
+}
+.jaipur{
+    background-color: #dddddd;
+    width: 300px;
+    height: 330px;
+}
+.lion{
+    background-color: #7e623e;
+    width: 100%;
+    height: 500px;
+}
+.Festival{
+    background-color:white;
+    width: 300px;
+    height: 60px;
+}
+
+
+.Balance{
+    padding-left: 30px;
+   padding-top: 30px;
+}
+.display{
+    padding-top: 50px;
+}
+
+
+.tunty{
+    padding-left: 40px;
+
+}
+.kitchen{
+    display: flex;
+ justify-content: space-evenly;
+}
+.apple img{
+    padding-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+/* footersssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("https://www.pngmart.com/files/23/Amazon-Logo-White-PNG-Image.png");
+    background-size: cover;
+
+    height: 50px;
+    width: 121px;
+}
+
+.lang {
+    border: 1px solid white;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 p {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    font-size: 1em;
+    height: 200px;
+    justify-content: space-evenly;
+
+}
+
+.foot-panel4 ul a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+@media screen and (max-width:500px) {}
